@@ -1,0 +1,38 @@
+{
+  "name": "shopping-guide",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "client": "cd client && npm start",
+    "server": "nodemon ./bin/www",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.2",
+    "client-sessions": "^0.8.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "draft-js-plugins-editor": "^2.0.8",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "google-auth-library": "^1.4.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "jquery": "^3.3.1",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.13",
+    "morgan": "~1.9.0",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}

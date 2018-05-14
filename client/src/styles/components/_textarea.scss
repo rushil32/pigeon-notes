@@ -1,0 +1,31 @@
+.text-area {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  bottom: 0px;
+
+  &__input {
+    height: 100%;
+  }
+
+  .toolbar {
+    button{
+      background: none;
+      color: $dark-grey-1;
+      border: none;
+      padding: 0.5rem;
+      border-radius: 3px;
+    }
+    
+    button:hover{
+      background: $light-grey-1;
+    }
+  }
+
+  &__code-block {
+    // Code block styles go here
+  }
+}
