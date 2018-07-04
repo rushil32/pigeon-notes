@@ -7,3 +7,7 @@ A rich text note app using MongoDB + NodeJS + Express + React + DraftJS
 1. Run server by running 'npm run server'
 
 2. Run client using 'npm run client'
+
+## Live demo - 
+
+https://pigeon-notes.herokuapp.com/
